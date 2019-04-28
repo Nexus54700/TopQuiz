@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.exozz.topquiz.controller.GameActivity">
+
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Quelle est le nom du président actuel ?"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/reponse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="François hollande"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <Button
+        android:id="@+id/reponse2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Emmanuel macron"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/reponse3"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Jacques chirac"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/reponse4"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="François mitterand"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+
+</LinearLayout>

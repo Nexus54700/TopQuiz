@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:background="#ff0000"
         android:padding="20dp"
-        android:text="Welcome! What's your name ?"
+        android:text="Bienvenue ! Quelle est ton nom ?"
         android:textAlignment="center" />
 
     <EditText
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
-        android:hint="Please enter your name"
+        android:hint="Entrer votre nom"
         android:textAlignment="center" />
 
     <Button
@@ -32,5 +32,5 @@
         android:padding="30dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Let's play" />
+        android:text="Jouer !" />
 </LinearLayout>

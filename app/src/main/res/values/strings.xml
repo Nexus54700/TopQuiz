@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TopQuiz</string>
+    <string name="bienvenue_quelle_est_ton_nom">Bienvenue ! Quelle est ton nom ?</string>
+    <string name="entrer_votre_nom">Entrer votre nom</string>
+    <string name="jouer">Jouer !</string>
+    <string name="classement">Classement</string>
+    <string name="imgclassement">imgClassement</string>
 </resources>

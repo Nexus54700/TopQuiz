@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,7 +14,7 @@
         android:layout_height="wrap_content"
         android:background="#ff0000"
         android:padding="20dp"
-        android:text="Bienvenue ! Quelle est ton nom ?"
+        android:text="@string/bienvenue_quelle_est_ton_nom"
         android:textAlignment="center" />
 
     <EditText
@@ -22,8 +23,10 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
-        android:hint="Entrer votre nom"
-        android:textAlignment="center" />
+        android:hint="@string/entrer_votre_nom"
+        android:textAlignment="center"
+        android:inputType=""
+        android:autofillHints="" tools:targetApi="o" />
 
     <Button
         android:id="@+id/activity_main_play_btn"
@@ -32,5 +35,22 @@
         android:padding="30dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Jouer !" />
+        android:text="@string/jouer" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageClassement"
+            android:src="@drawable/bleu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/classement"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.982"
+            android:contentDescription="@string/imgclassement" />
+    </android.support.constraint.ConstraintLayout>
 </LinearLayout>

@@ -7,8 +7,7 @@
     android:orientation="vertical">
 
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <LinearLayout
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,24 +23,83 @@
             android:text="Retour" />
 
         <Button
-            android:id="@+id/ascendantButton"
+            android:id="@+id/userButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="33"
-            android:text="Ascendant" />
+            android:text="Utilisateur" />
 
         <Button
-            android:id="@+id/descendantButton"
+            android:id="@+id/scoreButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="33"
-            android:text="Descendant" />
+            android:text="score" />
 
 
     </LinearLayout>
+    <TextView
+        android:id="@+id/activity_history_scoreNumber1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:textSize="30sp"
+        android:text="Player : score 1" />
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/listClassement"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/activity_history_scoreNumber2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:textSize="30sp"
+        android:text="Player : score 2" />
+
+    <TextView
+        android:id="@+id/activity_history_scoreNumber3_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:textSize="30sp"
+        android:text="Player : score 3" />
+
+    <TextView
+        android:id="@+id/activity_history_scoreNumber4_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:textSize="30sp"
+        android:text="Player : score 4" />
+
+    <TextView
+        android:id="@+id/activity_history_scoreNumber5_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:textSize="30sp"
+        android:text="Player : score 5" />
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listClassement" />-->
 </LinearLayout>
